@@ -1,18 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
  * main - Starting point
  *
  * Return: 0
  */
- 
 int main(void)
 {
 	int n;
 	int t;
-
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	t = n % 10;
