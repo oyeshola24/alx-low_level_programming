@@ -1,14 +1,16 @@
 #include "main.h"
-
+/**
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	char *main = "Main";
+char T[10] = "Main\n";
+int i = 0;
 
-	while (*main)
-	{
-		_putchar(*main);
-		main++;
-	}
-	_putchar('\n');
-	return (0);
+for (i = 0; i < 10; i++)
+{
+_putchar(T[i]);
+}
+return (0);
 }
