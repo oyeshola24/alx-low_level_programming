@@ -1,8 +1,12 @@
-int _isupper(int c)
+int main(void)
 {
-    if (c >= 'A' && c <= 'Z')
-    {
-        return (1);
-    }
-    return (0);
+	char *holberton = "Holberton";
+
+	while (*holberton)
+	{
+		_putchar(*holberton);
+		holberton++;
+	}
+	_putchar('\n');
+	return (0);
 }
