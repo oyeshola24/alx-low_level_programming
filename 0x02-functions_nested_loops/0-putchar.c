@@ -1,11 +1,13 @@
+#include "main.h"
+
 int main(void)
 {
-	char *holberton = "Holberton";
+	char *main = "Main";
 
-	while (*holberton)
+	while (*main)
 	{
-		_putchar(*holberton);
-		holberton++;
+		_putchar(*main);
+		main++;
 	}
 	_putchar('\n');
 	return (0);
