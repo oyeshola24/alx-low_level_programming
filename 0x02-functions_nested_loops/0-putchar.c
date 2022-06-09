@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * Staring point print _putchar
+ * main - Staring point print _putchar
  *
  * Return: 0
+ * 
+ * main - displays _putchar in a word
  */
 int main(void)
 {
@@ -15,5 +17,5 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
-return 0;
+return (0);
 }
