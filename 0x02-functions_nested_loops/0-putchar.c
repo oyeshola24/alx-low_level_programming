@@ -3,7 +3,7 @@
  * main - Staring point print _putchar
  *
  * Return: 0
- * 
+ *
  * main - displays _putchar in a word
  */
 int main(void)
