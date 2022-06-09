@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main.h";
 /**
  * Staring point print _putchar
  *
