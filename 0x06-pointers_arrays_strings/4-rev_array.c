@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* reverse_array - array in reverse
-* @a: an array a
-* @n: an element inside the array 
+* reverse_array - an array in reverse
+* @a: an array elenment a
+* @n: an array element
 */
 void reverse_array(int *a, int n)
 {
