@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-* _strchr - a string character
-* @s: a string given
-* @c: a char
-* Return: a string variable
+* _strchr -> string character
+* @s: string given
+* @c: another char
+* Return: a string
 */
 char *_strchr(char *s, char c)
 {
